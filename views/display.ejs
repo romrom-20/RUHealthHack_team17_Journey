@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <form class="formOne" action="/results" method="POST" enctype="multipart/form-data">
+            <input
+                type="file"
+                accept="pdf, .doc, .docx, .txt"
+                name="submitReport"
+                id="file"
+                required
+            />
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
